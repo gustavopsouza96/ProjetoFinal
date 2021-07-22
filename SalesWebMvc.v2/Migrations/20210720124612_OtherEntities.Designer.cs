@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SalesWebMvc.v2.Data;
+using SalesWebMvc.v2.Models;
 
 namespace SalesWebMvc.v2.Migrations
 {
