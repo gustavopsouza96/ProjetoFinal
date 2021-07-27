@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.v2.Models;
 using SalesWebMvc.v2.Data;
+using SalesWebMvc.v2.Services;
 
 
 namespace SalesWebMvc.v2
@@ -43,6 +44,7 @@ namespace SalesWebMvc.v2
                         builder.MigrationsAssembly("SalesWebMvc.v2")));
 
             services.AddScoped<SeedingService>(); // Registro do serviço no sistema de aplicação
+            services.AddScoped<SellerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
